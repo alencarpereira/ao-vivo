@@ -60,3 +60,108 @@ button {
     margin-top: 15px;
 
 }
+
+.sinais-container {
+    background: #1e1e2f;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+}
+
+.sinais-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.sinal {
+    background: #2b2b3d;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.sinal span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sinal p {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+}
+
+/* Cores por tipo de alerta */
+#buyGoal {
+    border-left: 5px solid #00ff00;
+}
+
+#pressaoForte {
+    border-left: 5px solid #ff8c00;
+}
+
+#layUnder {
+    border-left: 5px solid #ff0000;
+}
+
+#wait {
+    border-left: 5px solid #888;
+}
+
+#proximoGol {
+    border-left: 5px solid #00bfff;
+}
+
+#alertaGol {
+    border-left: 5px solid #ff1493;
+}
+
+.sinais-container {
+    width: 300px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.sinal {
+    border-left: 5px solid #888;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    opacity: 0.5;
+}
+
+#buyGoal {
+    border-left-color: #00ff00;
+}
+
+#pressaoForte {
+    border-left-color: #ff8c00;
+}
+
+#layUnder {
+    border-left-color: #ff0000;
+}
+
+#wait {
+    border-left-color: #888;
+}
+
+#proximoGol {
+    border-left-color: #00bfff;
+}
+
+#alertaGol {
+    border-left-color: #ff1493;
+}
+
+.sinal span {
+    font-weight: bold;
+    display: block;
+}
+
+.sinal p {
+    margin: 2px 0 0 0;
+}
